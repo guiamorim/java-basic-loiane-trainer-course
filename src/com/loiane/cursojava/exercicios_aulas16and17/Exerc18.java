@@ -2,6 +2,8 @@ package com.loiane.cursojava.exercicios_aulas16and17;
 
 import java.util.Scanner;
 
+// 18. This app should receive a number and validate if it's greater than 1 and if it's prime number, so will inform about, but inform that number is negative or not a prime number.
+
 public class Exerc18 {
 
 	public static void main(String[] args) {
@@ -19,13 +21,11 @@ public class Exerc18 {
 		}
 
 		if (num > 1 || divisorsAmount == 2) {
-			System.out.print("The number " + num + "is a prime number.");
+			System.out.print("The number " + num + " is a prime number.");
 		} else if (num < 0) {
 			System.out.println("This is a negative number, please enter a positive number.");
-		} else if (num == 1) {
-			System.out.print("The number " + num + "is not a prime number.");
 		} else {
-			System.out.print("The number " + num + "is not a prime number.");
+			System.out.print("The number " + num + " is not a prime number.");
 		}
 		sc.close();
 	}
