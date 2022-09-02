@@ -2,7 +2,6 @@ package com.loiane.cursojava.exercicios_aulas16and17;
 
 import java.util.Scanner;
 
-
 // 29. This app will receive 2 numbers ( initial and final) and then will list
 // only prime number in a row until the Final number.
 
@@ -38,8 +37,8 @@ public class Exerc29 {
 
 			// Incremental from numInti to numFin
 			numInit++;
-			
-			//Refresh of divisor quantity for the next loop
+
+			// Refresh of divisor quantity for the next loop
 			divisorAmount = 0;
 
 		} while (numInit <= numFin);
