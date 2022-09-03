@@ -2,6 +2,10 @@ package com.loiane.cursojava.exercicios_aulas16and17;
 
 import java.util.Scanner;
 
+
+// 32. This app will shows the menu and allow user to choose the product and the quantity.
+// At the end ( when user choose the option 0) will return the total value of order.
+
 public class Exerc32 {
 
 	public static void main(String[] args) {

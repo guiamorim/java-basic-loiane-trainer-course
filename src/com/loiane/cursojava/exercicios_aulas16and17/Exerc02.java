@@ -16,24 +16,21 @@ public class Exerc02 {
 
 		Scanner sc = new Scanner(System.in);
 
-			do {
-				System.out.println("Please, enter the login and password. Both must be different each other\n");
+		do {
+			System.out.println("Please, enter the login and password. Both must be different each other\n");
 
-				System.out.println("Login:");
-				login = sc.next();
-				System.out.println("\nPassword:");
-				password = sc.next();
+			System.out.println("Login:");
+			login = sc.next();
+			System.out.println("\nPassword:");
+			password = sc.next();
 
-				if (login.equalsIgnoreCase(password)) {
-					
-					System.out.println("\nPlease try again, login and password can't be equals.\n");
-					entriesEquals = true;
-
-	
-				} else {
-					System.out.println("\nAccount has been registered");
-				}
-			} while (entriesEquals);
+			if (login.equalsIgnoreCase(password)) {
+				System.out.println("\nPlease try again, login and password can't be equals.\n");
+				entriesEquals = true;
+			} else {
+				System.out.println("\nAccount has been registered");
+			}
+		} while (entriesEquals);
 
 		sc.close();
 	}

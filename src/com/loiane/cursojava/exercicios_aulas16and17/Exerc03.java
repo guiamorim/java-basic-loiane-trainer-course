@@ -132,9 +132,6 @@ public class Exerc03 {
 				validation = false;
 			}
 		} while (validation == false);
-		
-		
-		
 
 		sc.close();
 	}

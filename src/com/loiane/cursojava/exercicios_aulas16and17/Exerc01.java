@@ -35,7 +35,7 @@ public class Exerc01 {
 			} else {
 				System.out.println("\nWe sorry, numbers are not valid.\n");
 				if ((num1 < 0 || num1 > 10) && (num2 < 0 || num2 > 10)) {
-					System.out.println(num1 + " and " + num2 + " are out form accepted range.");
+					System.out.println(num1 + " and " + num2 + " are out from accepted range.");
 				} else if (num1 <= 0 || num1 >= 10) {
 					System.out.println(num1 + " is out from accepted range.");
 				} else {
