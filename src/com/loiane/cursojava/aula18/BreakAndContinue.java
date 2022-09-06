@@ -45,15 +45,15 @@ public class BreakAndContinue {
 					System.out.println("[" + i + "] -> This is your " + position + "° divisible number by 9.");
 					break; // after find the desirable position jump out of for
 				}
-				
-				//Uncomment it if want to show the sequence of number from initial number until the found position.
-				//System.out.println(i); 
+
+				// Uncomment it if want to show the sequence of number from initial number until
+				// the found position.
+				// System.out.println(i);
 			}
 
 		}
 		sc.close();
-		
-		
+
 	}
 
 }
