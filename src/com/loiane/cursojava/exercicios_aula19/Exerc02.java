@@ -14,7 +14,7 @@ public class Exerc02 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Please enter 8 numbers to form the array A:");
+		System.out.println("Please enter 8 numbers to fill the array A:");
 		int counter = 0;
 		while (counter < arrayA.length) {
 			System.out.print("Number " + (counter + 1) + ": ");
@@ -36,6 +36,7 @@ public class Exerc02 {
 			System.out.print(" " + elem);
 		}
 
+		sc.close();
 	}
 
 }

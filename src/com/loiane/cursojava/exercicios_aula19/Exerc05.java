@@ -2,8 +2,8 @@ package com.loiane.cursojava.exercicios_aula19;
 
 import java.util.Scanner;
 
-// 2. This App stores 15 integers number and replicate
-// the value of square root of them to a second array with the same size.
+// 2. This App stores 15 integers number in an array and then replicate
+// them after multiplies by the current index of each valuee to a new array.
 
 public class Exerc05 {
 
@@ -14,7 +14,7 @@ public class Exerc05 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Please enter 8 numbers to form the array A:");
+		System.out.println("Please enter 15 numbers to fill the array A:");
 		int counter = 0;
 		while (counter < arrayA.length) {
 			System.out.print("Number " + (counter + 1) + ": ");
@@ -35,8 +35,9 @@ public class Exerc05 {
 		for (int elem : arrayB) {
 			System.out.println(" " + elem);
 		}
+		
+		sc.close();
 
 	}
 
 }
-
