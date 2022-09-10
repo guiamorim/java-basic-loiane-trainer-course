@@ -1,8 +1,9 @@
 package com.loiane.cursojava.exercicios_aula19;
 
 import java.lang.Math;
-import java.lang.reflect.Array;
 
+// 22 - This App will process ramdonly 10 positions in a array, then will
+// calculate the percentage(%) that each possible value (o or 1) represent from the total.
 public class Exerc22 {
 
 	public static void main(String[] args) {
@@ -25,8 +26,7 @@ public class Exerc22 {
 				quantity1++;
 			}
 		}
-		
-		
+
 		System.out.println("Randomic ocurrency result:");
 		System.out.println(" 0: " + ((quantity0 * 100) / arrayJ.length) + "%");
 		System.out.println(" 1: " + ((quantity1 * 100) / arrayJ.length) + "%");
