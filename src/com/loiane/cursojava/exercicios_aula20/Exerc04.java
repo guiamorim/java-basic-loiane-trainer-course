@@ -223,47 +223,6 @@ public class Exerc04 {
 			}
 		} while (doAnotherOperation);
 
-//		System.out.println("Please schedule an apointment: ");
-
-//		System.out.println("1 - January	5 - May		 9 - September");
-//		System.out.println("2 - February	6 - June	10 - October");
-//		System.out.println("3 - March	7 - July	11 - November");
-//		System.out.println("4 - April	8 - August	12 - December");
-
-//		System.out.print("\nChoose a Month [1-12]: ");
-//		int month = sc.nextInt();
-
-		// Consult of appoitment all agenda
-//		System.out.println("\nShowing Agenda...");
-//		for (int i = 0; i < agenda.length; i++) {
-//			System.out.println("\nDay	Hour	apointment");
-//			System.out.println("----------------------------");
-//			for (int j = 0; j < agenda[i].length; j++) {
-//				System.out.println(" " + (i + 1) + "	" + j + ":00" + " 	" + agenda[i][j]);
-//			}
-//		}
-
-		// Consult only 1 day per time
-
-//		System.out.println("Choose the day:");
-//		day = sc.nextInt();
-//
-//		System.out.println("\nShowing Daily Agenda...");
-//		for (int i = 0; i < agenda.length; i++) {
-//			if (day == (i + 1)) {
-//				System.out.println("\nDay	Hour	apointment");
-//				System.out.println("----------------------------");
-//
-//				for (int j = 0; j < agenda[i].length; j++) {
-//					System.out.println(" " + (i + 1) + "	" + j + ":00" + " 	" + agenda[i][j]);
-//				}
-//			}
-//		}
-
-		// Output of specifi appoitment
-		// System.out.println("Day: " + day + ", hour: " + hour + " :" +
-		// agenda[day][hour]);
-
 		sc.close();
 	}
 

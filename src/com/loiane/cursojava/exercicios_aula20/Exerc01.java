@@ -33,6 +33,7 @@ public class Exerc01 {
 		System.out.println("\nMax Number: " + maxNumber);
 		System.out.println("Line: " + line);
 		System.out.println("Column: " + col);
+		
 	}
 
 }
