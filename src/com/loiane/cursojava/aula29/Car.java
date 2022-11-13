@@ -13,11 +13,21 @@ public class Car {
 		passengers = 5;
 	}
 	
+	//This Constructor has been built using the IDE shortcut
+	public Car(String brand, String model, int passengers, double fuelStorageCapacity, double fuelConsumption) {
+		super();
+		this.brand = brand;
+		this.model = model;
+		this.passengers = passengers;
+		this.fuelStorageCapacity = fuelStorageCapacity;
+		this.fuelConsumption = fuelConsumption;
+	}
+
 	Car(String brand){
 		this.brand = brand;
 	}
 
-	void displayAutonomy() {
+	void displayFuelAutonomy() {
 		System.out.println("The car's autonomy is " + fuelStorageCapacity * fuelConsumption);
 	}
 
