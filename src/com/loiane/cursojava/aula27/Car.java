@@ -11,7 +11,7 @@ public class Car {
 	double fuelConsumption;
 	
 	
-	void displayAutonomy() {
+	public void displayAutonomy() {
 		System.out.println(fuelCapacity / fuelConsumption);
 	}
 	

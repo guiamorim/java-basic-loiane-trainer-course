@@ -2,7 +2,7 @@ package com.loiane.cursojava.exercicios_aula19;
 
 import java.util.Scanner;
 
-// This app will recieves 15 elements to serve as base to array composition, but before
+// This app will receives 15 elements to serve as base to array composition, but before
 // of 
 public class Exerc37 {
 
