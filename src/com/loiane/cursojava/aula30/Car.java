@@ -1,5 +1,8 @@
 package com.loiane.cursojava.aula30;
 
+// A this is used for 2 different cases:
+// 1. to reference a class parameters ( variable)
+// 2. to reference another constructor when using the same 'signature or argumets quantity' as required for a another class constructor.
 public class Car {
 
 	String brand;
