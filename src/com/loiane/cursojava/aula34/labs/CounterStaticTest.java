@@ -1,6 +1,6 @@
 package com.loiane.cursojava.aula34.labs;
 
-// 34. This class test the Static modifier for methods and variable from class CounterStatic.java
+// 34. This class Test the Static modifier for methods and variable from class CounterStatic.java
 
 public class CounterStaticTest {
 

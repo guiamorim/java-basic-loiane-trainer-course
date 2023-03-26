@@ -86,7 +86,7 @@ public class Exerc06 {
 						}
 					} while (!validPosition);
 
-					// game[0][0] = 'o'; --> only to test
+					// game[0][0] = 'o'; --> only to Test
 
 					if (!game[rowPosition][colPosition].isBlank()) {
 						System.out.println("Sorry, this position is not empty. Please, choose a different one.");

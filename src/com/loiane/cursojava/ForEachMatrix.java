@@ -21,7 +21,7 @@ public class ForEachMatrix {
 		studentsGrade[2][0] = 14.8;
 		studentsGrade[2][1] = 7.9;
 		
-		//System.out.println(studentsGrade[0][0]); // Only for test purpose
+		//System.out.println(studentsGrade[0][0]); // Only for Test purpose
 		
 		for(double[] studentGrade : studentsGrade ) {
 			for(double grade : studentGrade) {

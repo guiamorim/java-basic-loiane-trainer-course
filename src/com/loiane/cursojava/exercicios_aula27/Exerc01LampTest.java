@@ -1,6 +1,6 @@
 package com.loiane.cursojava.exercicios_aula27;
 
-//This App is a test for Lamp class
+//This App is a Test for Lamp class
 
 public class Exerc01LampTest {
 

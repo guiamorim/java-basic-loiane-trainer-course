@@ -1,6 +1,6 @@
 package com.loiane.cursojava.exercicios_aula27;
 
-// This App is a test for BankAccount class
+// This App is a Test for BankAccount class
 
 public class Exerc02BankAccount {
 

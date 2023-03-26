@@ -413,7 +413,7 @@ public class Exerc05 {
 
 					for (int j = 0; j < agenda[i].length; j++) {
 						for (int k = 0; k < agenda[i][j].length; k++) {
-							// System.out.println("test");
+							// System.out.println("Test");
 							System.out.println(
 									" " + (i + 1) + "  	" + (j + 1) + " 	" + k + ":00" + "   " + agenda[i][j][k]);
 						}

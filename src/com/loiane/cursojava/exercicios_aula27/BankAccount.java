@@ -68,7 +68,7 @@ public class BankAccount {
 					this.specialLoan -= leftWithDraw;
 					System.out.println("\nTotal Withdraw:		€" + withDrawValue + "   \n - From Balance:	€"
 							+ (withDrawValue - leftWithDraw) + "   \n - From Special Loan:	€" + leftWithDraw);
-//				System.out.println("Balance: " + this.balance); // FTP - for test purpose
+//				System.out.println("Balance: " + this.balance); // FTP - for Test purpose
 //				System.out.println("specialLoan: " + this.specialLoan); // FTP
 				} else {
 					System.out.println("Balance and Special limit are insuficient for this operation.");
