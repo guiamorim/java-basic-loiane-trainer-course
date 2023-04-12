@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula43.labs;
+package com.loiane.cursojava.aula43.labs.Exerc01;
 
 public class BankAccount {
 
